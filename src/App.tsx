@@ -6,6 +6,7 @@ import { ErrorMessage } from './components/ErrorMessage';
 import { LoadingSpinner } from './components/LoadingSpinner';
 import { useCoins } from './hooks/useCoins';
 import { ErrorBoundary } from './components/ErrorBoundary';
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [coinAId, setCoinAId] = useState('bitcoin');
